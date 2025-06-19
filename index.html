@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+        <title>Generate Passwords</title>
+    </head>
+    <body>
+        <div class="title">
+            <span class="GA">Generate a</span><br>
+            <span class="RP">random password</span>
+        </div>
+        
+        <p class="remind">Never use an insecure password again.</p>
+        <button class="generate" onclick="showPassword()">Generate passwords</button>
+        <label>
+            The length of the passwords:
+            <input type="number" id="passLen" class="passLen" name="passLen" value="15"></div>
+        </label>
+        <hr>
+        <script src="index.js"></script>
+        <div class="container">
+            <div class="password1" id="p1"></div>
+            <div class="password2" id="p2"></div>
+        </div>
+    </body>
+</html>
